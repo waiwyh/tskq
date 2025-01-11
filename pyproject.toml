@@ -3,7 +3,10 @@ name = "taskqueue"
 version = "0.1.0"
 description = ""
 authors = ["wangyuhao <waiwyh@gmail.com>"]
-readme = "README.md"
+packages = [
+    { include = "tskq" },
+]
+
 
 [tool.poetry.dependencies]
 python = "^3.12"

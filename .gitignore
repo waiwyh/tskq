@@ -1,0 +1,13 @@
+poetry.lock
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+.vscode/
+
+.test/
+
+dist/
+
+tskp/
