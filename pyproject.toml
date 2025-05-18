@@ -1,15 +1,15 @@
 [tool.poetry]
-name = "taskqueue"
+name = "tskq"
 version = "0.1.0"
-description = ""
+description = "taskqueue"
 authors = ["wangyuhao <waiwyh@gmail.com>"]
 packages = [
-    { include = "tskq" },
+  { include = "tskq", from = "src" },
 ]
 
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.11"
 
 
 [build-system]

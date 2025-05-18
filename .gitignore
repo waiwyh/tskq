@@ -1,13 +1,23 @@
-poetry.lock
-
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*$py.class
+
+
+
+
+# Pytest
 .pytest_cache/
 
+
+# pyproject.toml specific
+*.lock
+poetry.lock
+
+# IDEs and editors
+.idea/
 .vscode/
 
-.test/
-
+test/
 dist/
-
 tskp/
